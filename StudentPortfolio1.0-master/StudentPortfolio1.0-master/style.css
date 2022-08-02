@@ -1,0 +1,44 @@
+h1 {
+    color: #160000;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+ * {
+    background-color: #b3f1e4;
+} 
+
+.header{
+    background-color: #0eac62;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+p {
+    color: #de0000;
+}
+
+h2 {
+    color: #de0098;
+}
